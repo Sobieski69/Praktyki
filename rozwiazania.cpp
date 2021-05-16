@@ -40,4 +40,25 @@ vector<int> compareTriplets(vector<int> a, vector<int> b) {
     return scoreBoard;
 
 }
+void plusMinus(vector<int> arr, int n) {
+    int positive=0;
+    int negative=0;
+    int zero=0;
+for (int i = 0; i < n; i++){
+    if (arr[i]>0){
+        positive++;
+    
+    }
+    else if(arr[i]<0){
+        negative++;
+    }
+    else{
+        zero++;
+    }
+}
+cout << fixed << setprecision(6)<< double(positive) /n<< endl;
+cout << fixed << setprecision(6)<< double(negative) /n<< endl;
+cout << fixed << setprecision(6)<< double(zero) /n<< endl;
+
+}
 //s sffs
