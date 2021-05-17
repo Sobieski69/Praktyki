@@ -61,4 +61,23 @@ cout << fixed << setprecision(6)<< double(negative) /n<< endl;
 cout << fixed << setprecision(6)<< double(zero) /n<< endl;
 
 }
-//s sffs
+void staircase(int n) {
+//vector<vector <string> >stairs;
+
+int tmp =n-1;
+    for (int i=0;i<n;i++){
+        for (int j=0;j<n;j++){
+            if(j<tmp){
+                cout << " ";
+            }
+            else if(j>=tmp && j<n){
+                cout<< "#";
+                
+            }
+            
+            
+        }
+        cout <<"\n";
+        tmp--;
+    }
+}
